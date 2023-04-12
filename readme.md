@@ -27,6 +27,13 @@ The possibilities for configuring rules on number, string, or boolean fields are
 
 This script sends the CPU usage to the MonSpark Heartbeat Monitor
 
+### [RAM](./ram/)
+
+This script sends the RAM usage to the MonSpark Heartbeat Monitor
+
+### [DISK](./disk/)
+
+This script sends the Disk usage to the MonSpark Heartbeat Monitor
 
 
 
