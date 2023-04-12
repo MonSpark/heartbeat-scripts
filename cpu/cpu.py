@@ -133,7 +133,8 @@ def main(url: str, cpu_interval_seconds: int, post_interval_seconds: int, verbos
             url,
             cpu_usage_1min_avg,
             cpu_usage_5min_avg,
-            cpu_usage_15min_avg
+            cpu_usage_15min_avg,
+            verbose_level > 0
         )
 
 
