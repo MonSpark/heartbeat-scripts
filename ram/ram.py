@@ -166,7 +166,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     import signal
-    for sig in (signal.SIGTERM, signal.SIGHUP, signal.SIGINT):
+    for sig in (signal.SIGTERM, signal.SIGINT):
         signal.signal(sig, quit)
 
     main(
