@@ -9,7 +9,7 @@ This script sends the CPU usage to the MonSpark Heartbeat Monitor
 ## Installation
 
 1.  Clone this repo
-2.  CD into the directory (e.g. `cd cpu`)
+2.  CD into the directory (e.g. `cd heartbeat-scripts/cpu`)
 3.  Install the requirements
 
     ```bash
