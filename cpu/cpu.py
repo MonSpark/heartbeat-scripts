@@ -163,7 +163,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--verbose', '-v',
         action='count',
-        default=0,
+        default=1,
         help='The level of verbosity of the script (0: only errors, 1: errors and posts, 2: all output)',
     )
     args = parser.parse_args()
