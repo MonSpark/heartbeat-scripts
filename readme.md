@@ -23,7 +23,7 @@ The possibilities for configuring rules on number, string, or boolean fields are
 # Available Scripts
 
 
-### [CPU](./cpu/readme.md)
+### [CPU](./cpu/)
 
 This script sends the CPU usage to the MonSpark Heartbeat Monitor
 
