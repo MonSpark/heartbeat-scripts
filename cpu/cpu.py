@@ -171,7 +171,7 @@ if __name__ == '__main__':
 
     main(
         args.url,
-        args.cpu_seconds,
+        args.collection_seconds,
         args.post_seconds,
         args.verbose
     )
