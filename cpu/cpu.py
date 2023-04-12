@@ -32,9 +32,6 @@ def collect_cpu_usage(cpu_usage: list[dict], cpu_interval_seconds: int, verbose:
                 '%Y-%m-%d %H:%M:%S.%f')[:-3]
             print(f'{date}: {cpu_percent:.2f}%')
 
-        # Get time since loop started
-        duration = time.time() - loop_start_time
-
         # Clear the list of CPU usage data older than 15 minutes
         ago_15min = time.time() - 900
         # Filter in-place
