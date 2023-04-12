@@ -4,7 +4,6 @@ import time
 import argparse
 import threading
 from datetime import datetime
-import sys
 import signal
 
 exit = threading.Event()
@@ -147,7 +146,7 @@ if __name__ == '__main__':
         help='The URL of the MonSpark Heartbeat Monitor',
     )
     parser.add_argument(
-        '--cpu-seconds', '-c',
+        '--collection-seconds', '-c',
         type=int,
         default=1,
         help='The interval in seconds between each CPU usage collection',

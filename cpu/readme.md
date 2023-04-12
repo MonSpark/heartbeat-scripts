@@ -29,13 +29,13 @@ This script sends the CPU usage to the MonSpark Heartbeat Monitor
 # Arguments
 
 ```bash
-python3 cpu.py [-h] --url URL [-c CPU_SECONDS] [-p POST_SECONDS] [-v]
+python3 cpu.py [-h] --url URL [-c COLLECTION_SECONDS] [-p POST_SECONDS] [-v]
 ```
 
 | Short | Long             | Default | Help                                                                                      |
 | :---- | :--------------- | :------ | :---------------------------------------------------------------------------------------- |
 | `-h`  | `--help`         |         | Show this help message and exit                                                           |
 | `-u`  | `--url`          |         | The URL of the MonSpark Heartbeat Monitor                                                 |
-| `-c`  | `--cpu-seconds`  | `1`     | The interval in seconds between each CPU usage collection                                 |
+| `-c`  | `--collection-seconds`  | `1`     | The interval in seconds between each CPU usage collection                                 |
 | `-p`  | `--post-seconds` | `60`    | The interval in seconds between each data send to the MonSpark Heartbeat Monitor          |
 | `-v`  | `--verbose`      | `1`     | The level of verbosity of the script (0: only errors, 1: errors and posts, 2: all output) |
